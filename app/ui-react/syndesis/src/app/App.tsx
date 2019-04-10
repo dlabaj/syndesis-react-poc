@@ -1,3 +1,4 @@
+import { Button } from '@patternfly/react-core';
 import {
   ApiContext,
   ServerEventsContext,
@@ -24,7 +25,6 @@ import { IConfigFile, WithConfig } from './WithConfig';
 
 import pictogram from './glasses_logo_square.png';
 import typogram from './syndesis-logo-svg-white.svg';
-import { Page } from '@patternfly/react-core';
 
 export interface IAppRoute {
   component:
@@ -199,6 +199,7 @@ export class App extends React.Component<IAppBaseProps, IAppBaseState> {
                                       </WithErrorBoundary>
                                     )}
                                   </WithRouter>
+                                  <Button />
                                 </AppLayout>
                               </ServerEventsContext.Provider>
                             )}
