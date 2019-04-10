@@ -24,6 +24,7 @@ import { IConfigFile, WithConfig } from './WithConfig';
 
 import pictogram from './glasses_logo_square.png';
 import typogram from './syndesis-logo-svg-white.svg';
+import { Page } from '@patternfly/react-core';
 
 export interface IAppRoute {
   component:

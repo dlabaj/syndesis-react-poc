@@ -72,5 +72,8 @@
     "trailingComma": "es5",
     "singleQuote": true,
     "semi": true
+  },
+  "dependencies": {
+    "@patternfly/react-core": "^2.10.9"
   }
 }
