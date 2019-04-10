@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@craco/craco": "^3.5.0",
+    "@patternfly/react-core": "^2.10.9",
     "@syndesis/api": "*",
     "@syndesis/atlasmap-adapter": "*",
     "@syndesis/auto-form": "*",
